@@ -44,8 +44,8 @@ const SidebarPlanning = () => {
           <Link href="/planning">
             <li>Planning 1</li>
           </Link>
-          <Link href="/planning">
-            <li>Planning 3</li>
+          <Link href="/planning_review_checklist_b11">
+            <li>Planning Review Checklist</li>
           </Link>
         </ul>
       </div>

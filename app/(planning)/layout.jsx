@@ -2,7 +2,7 @@ import SidebarPlanning from "./SidebarPlanning";
 
 export default function PlanningLayout({ children }) {
   return (
-    <section className="container mx-auto mt-20  ">
+    <section className="bg-gray-200   ">
       <SidebarPlanning />
       {children}
     </section>
