@@ -4,7 +4,7 @@ export default function StocksLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
       <SidebarStocks />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }

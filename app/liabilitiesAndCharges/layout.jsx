@@ -4,7 +4,7 @@ export default function LiabilitiesAndChargesLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
       <SidebarLiabilitiesAndCharges />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }

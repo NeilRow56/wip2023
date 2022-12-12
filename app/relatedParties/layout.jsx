@@ -4,7 +4,7 @@ export default function RelatedPartiesLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
       <SidebarRelatedParties />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }

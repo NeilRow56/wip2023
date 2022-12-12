@@ -4,7 +4,7 @@ export default function VATLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
       <SidebarVAT />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }

@@ -4,7 +4,7 @@ export default function PlanningLayout({ children }) {
   return (
     <section className="bg-gray-200   ">
       <SidebarPlanning />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }

@@ -4,7 +4,7 @@ export default function FixedAssetsLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
       <SidebarFixedAssets />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }

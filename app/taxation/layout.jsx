@@ -4,7 +4,7 @@ export default function TaxationLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
       <SidebarTaxation />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }

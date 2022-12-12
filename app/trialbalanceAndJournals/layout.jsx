@@ -4,7 +4,7 @@ export default function TrialBalanceAndJournalsLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
       <SidebarTrialBalance />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }

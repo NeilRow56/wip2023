@@ -1,10 +1,10 @@
 import SidebarShareCapital from "./SidebarShareCapital";
 
-export default function RelatedPartiesLayout({ children }) {
+export default function ShareCaiptalLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
       <SidebarShareCapital />
-      {children}
+      <main>{children}</main>
     </section>
   );
 }
