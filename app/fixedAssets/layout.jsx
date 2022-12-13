@@ -1,9 +1,9 @@
-import SidebarFixedAssets from "./SidebarFixedAssets";
+import Sidebar from "../components/Sidebar";
 
 export default function FixedAssetsLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarFixedAssets />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

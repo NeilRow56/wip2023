@@ -1,9 +1,9 @@
-import SidebarTaxation from "./SidebarTaxation";
+import Sidebar from "../components/Sidebar";
 
 export default function TaxationLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarTaxation />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

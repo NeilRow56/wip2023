@@ -1,9 +1,9 @@
-import SidebarCashAndBank from "./SidebarCashAndBank";
+import Sidebar from "../components/Sidebar";
 
 export default function CashAtBankLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarCashAndBank />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

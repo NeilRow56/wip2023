@@ -1,9 +1,9 @@
-import SidebarTrialBalance from "./SidebarTrialBalanceAndJournals";
+import Sidebar from "../components/Sidebar";
 
 export default function TrialBalanceAndJournalsLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarTrialBalance />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

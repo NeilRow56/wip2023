@@ -1,9 +1,9 @@
-import SidebarVAT from "./SidebarVAT";
+import Sidebar from "../components/Sidebar";
 
 export default function VATLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarVAT />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

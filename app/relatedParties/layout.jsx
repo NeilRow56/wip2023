@@ -1,9 +1,9 @@
-import SidebarRelatedParties from "./SidebarRelatedParties";
+import Sidebar from "../components/Sidebar";
 
 export default function RelatedPartiesLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarRelatedParties />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

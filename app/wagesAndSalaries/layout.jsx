@@ -1,9 +1,9 @@
-import SidebarWagesAndSalaries from "./SidebarWagesAndSalaries";
+import Sidebar from "../components/Sidebar";
 
 export default function WagesAndSalariesLayout({ children }) {
   return (
-    <section className="container mx-auto mt-20  ">
-      <SidebarWagesAndSalaries />
+    <section className="container mx-auto   ">
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

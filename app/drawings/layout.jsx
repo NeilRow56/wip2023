@@ -1,9 +1,9 @@
-import SidebarDrawings from "./SidebarDrawings";
+import Sidebar from "../components/Sidebar";
 
 export default function DrawingsLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarDrawings />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

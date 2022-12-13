@@ -1,9 +1,9 @@
-import SidebarPlanning from "./SidebarPlanning";
+import Sidebar from "../components/Sidebar";
 
 export default function PlanningLayout({ children }) {
   return (
     <section className="bg-gray-200   ">
-      <SidebarPlanning />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

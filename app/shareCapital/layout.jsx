@@ -1,9 +1,9 @@
-import SidebarShareCapital from "./SidebarShareCapital";
+import Sidebar from "../components/Sidebar";
 
 export default function ShareCaiptalLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarShareCapital />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

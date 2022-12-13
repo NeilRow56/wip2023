@@ -1,9 +1,9 @@
-import SidebarSalesAndDebtors from "./SidebarSalesAndDebtors";
+import Sidebar from "../components/Sidebar";
 
 export default function SalesAnDebtorsLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarSalesAndDebtors />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );

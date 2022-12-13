@@ -1,9 +1,9 @@
-import SidebarLiabilitiesAndCharges from "./SidebarLiabilitiesAndCharges";
+import Sidebar from "../components/Sidebar";
 
 export default function LiabilitiesAndChargesLayout({ children }) {
   return (
     <section className="container mx-auto mt-20  ">
-      <SidebarLiabilitiesAndCharges />
+      <Sidebar />
       <main>{children}</main>
     </section>
   );
